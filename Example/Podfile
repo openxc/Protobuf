@@ -1,0 +1,6 @@
+use_frameworks!
+target 'protobufSwift_Tests' do
+  pod 'protobufSwift', :path => '../'
+  
+  
+end
