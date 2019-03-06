@@ -1,0 +1,16 @@
+PODS:
+  - protobufSwift (0.1.0)
+
+DEPENDENCIES:
+  - protobufSwift (from `../`)
+
+EXTERNAL SOURCES:
+  protobufSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  protobufSwift: 01c09d5fc94232b9330f6fb4713b55968d9f43a0
+
+PODFILE CHECKSUM: ec940c75720afecc03dbece45db6e63252ad67a1
+
+COCOAPODS: 1.6.1
