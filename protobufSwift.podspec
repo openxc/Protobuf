@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'protobufSwift'
-  s.version          = '1.1.0'
+  s.version          = '1.3.0'
   s.summary          = 'Protocol Buffers for Swift 2.6/3.0.'
   s.swift_version    = '3.2'
 
