@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'protobufSwift'
-  s.version          = '1.3.0'
+  s.version          = '1.3.1'
   s.summary          = 'Protocol Buffers for Swift 2.6/3.0.'
-  s.swift_version    = '3.2'
+  s.swift_version    = '4.1.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,14 +28,14 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-
-  s.source_files = 'protobufSwift/*.{swift}'
-  
+  s.frameworks   = 'Foundation'
+  s.source_files = 'protobufSwift/Source/*.{swift}'
+  s.module_name = 'ProtocolBuffers'
   # s.resource_bundles = {
   #   'protobufSwift' => ['protobufSwift/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'protobufSwift', '~> 1.1.0'
 end
