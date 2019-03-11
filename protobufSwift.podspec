@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'protobufSwift'
-  s.version          = '1.3.1'
+  s.version          = '1.3.2'
   s.summary          = 'Protocol Buffers for Swift 2.6/3.0.'
-  s.swift_version    = '4.1.2'
+  s.swift_version    = '3.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/kranjanford/protobufSwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '9.0'
   s.frameworks   = 'Foundation'
   s.source_files = 'protobufSwift/Source/*.{swift}'
   s.module_name = 'ProtocolBuffers'
