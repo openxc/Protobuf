@@ -1,5 +1,5 @@
 PODS:
-  - protobufSwift (0.1.0)
+  - protobufSwift (1.3.3)
 
 DEPENDENCIES:
   - protobufSwift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  protobufSwift: 01c09d5fc94232b9330f6fb4713b55968d9f43a0
+  protobufSwift: 056f62edb9375d94cbf307500fff3b481b82b6dc
 
 PODFILE CHECKSUM: ec940c75720afecc03dbece45db6e63252ad67a1
 

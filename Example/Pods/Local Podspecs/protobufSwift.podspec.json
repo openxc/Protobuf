@@ -1,9 +1,9 @@
 {
   "name": "protobufSwift",
-  "version": "0.1.0",
+  "version": "1.3.3",
   "summary": "Protocol Buffers for Swift 2.6/3.0.",
   "swift_version": "3.2",
-  "homepage": "https://github.com/kranjanford/protobufSwift",
+  "homepage": "https://github.com/openxc/Protobuf",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "kranjanford": "kranjan@ford.com"
   },
   "source": {
-    "git": "https://github.com/kranjanford/protobufSwift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/openxc/Protobuf.git",
+    "tag": "1.3.3"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "protobufSwift/*.{swift}"
+  "frameworks": "Foundation",
+  "source_files": "protobufSwift/Source/*.{swift}",
+  "module_name": "ProtocolBuffers"
 }

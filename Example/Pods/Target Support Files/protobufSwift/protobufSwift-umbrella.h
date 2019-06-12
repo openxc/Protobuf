@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double protobufSwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char protobufSwiftVersionString[];
+FOUNDATION_EXPORT double ProtocolBuffersVersionNumber;
+FOUNDATION_EXPORT const unsigned char ProtocolBuffersVersionString[];
 
