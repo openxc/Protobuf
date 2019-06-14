@@ -1,4 +1,4 @@
-framework module protobufSwift {
+framework module ProtocolBuffers {
   umbrella header "protobufSwift-umbrella.h"
 
   export *
