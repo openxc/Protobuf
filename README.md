@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/protobufSwift.svg?style=flat)](https://cocoapods.org/pods/protobufSwift)
 [![Platform](https://img.shields.io/cocoapods/p/protobufSwift.svg?style=flat)](https://cocoapods.org/pods/protobufSwift)
 
+we are a fork from: https://github.com/alexeyxo/protobuf-swift
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
