@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'protobufSwift'
-  s.version          = '1.3.4'
+  s.version          = '1.3.5'
   s.summary          = 'Protocol Buffers for Swift 2.6/3.0.'
   s.swift_version    = '5.0'
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/openxc/Protobuf.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.3'
   s.frameworks   = 'Foundation'
   s.source_files = 'protobufSwift/Source/*.{swift}'
   s.module_name = 'ProtocolBuffers'
